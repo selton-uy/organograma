@@ -1,0 +1,22 @@
+.input-text{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+.input-text label{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    width: 70vw;
+}
+.input-text input{
+    width: 100%;
+    height: 5vh;
+    background: #fff;
+    box-shadow: 10px 10px 30px #44444440;
+    border: none;
+    padding: 24px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
