@@ -1,8 +1,6 @@
-import './Button.css'
+import "./Button.css";
 
-const ClickButton = () =>{
-    return(
-        <input type='submit'/>
-    )
-}
-export default ClickButton
+const ClickButton = (props) => {
+  return <button className="click-button">{props.children}</button>;
+};
+export default ClickButton;
